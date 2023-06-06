@@ -2,22 +2,6 @@
 
 > 魏文韬	19322088
 
-### 项目地址
-
-```shell
-服务器:222.200.184.74
-1.原始形式：
-	--/data/mlClass/mla30/hw1/origin/
-	|
-	|-- Perception.py	模型代码
-	|	# 运行：python3 main_origin.py
-	|-- main_origin.py	主代码：数据读取、模型训练、测试。
-    |	# 运行：python3 k_flod.py
-	|-- k_fold.py		k折交叉验证实现代码。		
-    |	# 运行：python3 searchParam.py
-	|-- searchParam.py	超参数遍历搜寻代码。							
-```
-
 ### 一、实验目的
 
 ​	本次作业采用深度学习网络，实现了卷积层、GRU层以及线性全连接层，对Exchange Rate中8个国家7000多条的汇率数据进行训练与。在此基础上，对模型的超参数如CNN、GRU层的深度进行调节，观察不同超参数下模型的效果，尝试找到最优的模型效果。
